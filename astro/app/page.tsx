@@ -1,13 +1,13 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import ZodiacSign from './Components/ZodiacSign';
+import { ZodiacSigns } from './Components/ZodiacSign';
 
 export default function Home() {
 
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 mt-16">
       
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,7 +49,7 @@ export default function Home() {
             Explore Your Zodiac Sign
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {ZodiacSign.map((zodiac) => (
+            {ZodiacSigns.map((zodiac) => (
               <div key={zodiac.name} className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
                 <div className="text-3xl mb-2">{zodiac.sign}</div>
                 <div className="text-purple-800 font-medium">{zodiac.name}</div>

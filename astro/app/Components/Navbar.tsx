@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="bg-purple-700 text-white">
+    <nav className="bg-purple-700 text-white fixed w-[100%] top-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo and brand name */}
@@ -26,7 +26,7 @@ const Navbar = () => {
                 
                 {/* Sign up/Log in button */}
                 <Link 
-                  href="/login" 
+                  href="/Login" 
                   className="bg-white text-purple-700 font-medium px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300"
                 >
                   Sign up / Log in
@@ -61,13 +61,13 @@ const Navbar = () => {
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link href="/" className="block hover:bg-purple-600 px-3 py-2 rounded-md">Home</Link>
-                <Link href="/Horoscope" className="block bg-purple-600 px-3 py-2 rounded-md">Daily Horoscope</Link>
+                <Link href="/Horoscope" className="block hover:bg-purple-600 px-3 py-2 rounded-md">Daily Horoscope</Link>
                 <Link href="/Zodiac" className="block hover:bg-purple-600 px-3 py-2 rounded-md">Zodiac Signs</Link>
                 <Link href="/Compatibility" className="block hover:bg-purple-600 px-3 py-2 rounded-md">Compatibility</Link>
                 
                 {/* Sign up/Log in button for mobile */}
                 <Link 
-                  href="/login" 
+                  href="/Login" 
                   className="block bg-white text-purple-700 font-medium px-3 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300"
                 >
                   Sign up / Log in
