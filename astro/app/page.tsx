@@ -1,6 +1,5 @@
 'use client';
-import Link from 'next/link';
-import { useState } from 'react';
+
 import { ZodiacSigns } from './Components/ZodiacSign';
 
 export default function Home() {

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function Login() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [loginMethod, setLoginMethod] = useState('email'); // 'email' or 'google'
 
   return (
@@ -124,7 +124,7 @@ export default function Login() {
                 
                 {/* Instructions for Google login */}
                 <p className="text-sm text-gray-600 mt-4">
-                  You'll still need to provide your birth details after connecting with Google
+                  You&apos;ll still need to provide your birth details after connecting with Google
                 </p>
               </div>
             )}
