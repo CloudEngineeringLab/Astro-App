@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
+import ZodiacSign from './Components/ZodiacSign';
 
 export default function Home() {
 
@@ -18,7 +19,7 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Unlock the mysteries of the stars and understand your destiny
           </p>
-          <button className="bg-purple-700 text-white px-8 py-3 rounded-full hover:bg-purple-600 transition-colors duration-300">
+          <button className="bg-purple-700 text-white px-8 py-3 rounded-full hover:bg-purple-600 transition-colors duration-300 hover:cursor-pointer">
             Get Your Free Reading
           </button>
         </div>
@@ -48,20 +49,7 @@ export default function Home() {
             Explore Your Zodiac Sign
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {[
-              { sign: "♈", name: "Aries" },
-              { sign: "♉", name: "Taurus" },
-              { sign: "♊", name: "Gemini" },
-              { sign: "♋", name: "Cancer" },
-              { sign: "♌", name: "Leo" },
-              { sign: "♍", name: "Virgo" },
-              { sign: "♎", name: "Libra" },
-              { sign: "♏", name: "Scorpio" },
-              { sign: "♐", name: "Sagittarius" },
-              { sign: "♑", name: "Capricorn" },
-              { sign: "♒", name: "Aquarius" },
-              { sign: "♓", name: "Pisces" },
-            ].map((zodiac) => (
+            {ZodiacSign.map((zodiac) => (
               <div key={zodiac.name} className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
                 <div className="text-3xl mb-2">{zodiac.sign}</div>
                 <div className="text-purple-800 font-medium">{zodiac.name}</div>
