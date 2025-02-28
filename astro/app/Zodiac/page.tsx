@@ -4,9 +4,6 @@ import {ZodiacSigns, zodiacFacts} from '../Components/ZodiacSign';
 
 import { useState } from 'react';
 
-interface Element {
-    element: string;
-}
 interface ZodiacSign {
     name: string;
     element: string;

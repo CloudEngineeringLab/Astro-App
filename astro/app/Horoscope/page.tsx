@@ -54,7 +54,7 @@ const page = () => {
             </div>
           </div>
           <div className="bg-purple-600 px-4 py-2 rounded-full text-sm">
-            Today's Mood: Energetic
+            Today&apos;s Mood: Energetic
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ const page = () => {
           <div className="md:col-span-2">
             <h4 className="text-xl font-semibold text-purple-800 mb-4">Your Daily Cosmic Message</h4>
             <p className="text-gray-700 mb-4">
-              The stars are aligned in your favor today, Aries. Your natural leadership abilities will shine, and those around you will look to you for guidance. It's an excellent day for starting new projects or taking the initiative in ongoing ones.
+              The stars are aligned in your favor today, Aries. Your natural leadership abilities will shine, and those around you will look to you for guidance. It&apos;s an excellent day for starting new projects or taking the initiative in ongoing ones.
             </p>
             <p className="text-gray-700 mb-4">
               Mars, your ruling planet, forms a harmonious aspect with Jupiter, expanding your horizons and boosting your confidence. Be bold but avoid being impulsive—take a moment to plan before you leap.
@@ -148,7 +148,7 @@ const page = () => {
     {/* Navigational Pills */}
     <div className="flex flex-wrap justify-center gap-2 mt-10">
       <button className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full hover:bg-purple-200 transition-colors">
-        Tomorrow's Preview
+        Tomorrow&apos;s Preview
       </button>
       <button className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full hover:bg-purple-200 transition-colors">
         Weekly Forecast
