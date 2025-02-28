@@ -81,19 +81,7 @@ export default function Compatibility() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header with navigation */}
-      <header className="bg-purple-800 text-white py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold">AstroApp</Link>
-          <nav>
-            <ul className="flex space-x-6">
-              <li><Link href="/" className="hover:text-purple-200">Home</Link></li>
-              <li><Link href="/compatibility" className="font-bold border-b-2 border-white">Compatibility</Link></li>
-              <li><Link href="#" className="hover:text-purple-200">Daily Horoscope</Link></li>
-              <li><Link href="#" className="hover:text-purple-200">About</Link></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
