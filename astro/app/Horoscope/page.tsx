@@ -50,7 +50,7 @@ const page = () => {
             <div className="text-4xl mr-4">♈</div>
             <div>
               <h3 className="text-2xl font-bold">Aries</h3>
-              <p className="text-purple-200">February 28, 2025</p>
+              <p className="text-purple-200">March 1, 2025</p>
             </div>
           </div>
           <div className="bg-purple-600 px-4 py-2 rounded-full text-sm">
